@@ -1,0 +1,9 @@
+.comments__content-title {
+    margin: 0 auto 48px;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__content-title {
+        margin-bottom: 28px;
+    }
+}

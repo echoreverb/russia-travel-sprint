@@ -1,0 +1,20 @@
+.video__duration {
+    margin: 0 0 12px 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+}
+
+@media screen and (max-width: 768px) {
+    .video__duration {
+        margin: 0 0 8px 24px;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .video__duration {
+        margin: 0 0 8px 16px;
+    }
+}

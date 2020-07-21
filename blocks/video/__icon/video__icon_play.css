@@ -1,0 +1,23 @@
+.video__icon_play {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    transform: translate(-50% -50%);
+    background: transparent;
+    background-image: url('../../../images/icon_play.svg');
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .video__icon_play {
+        top: 24px;
+        left: 24px
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .video__icon_play {
+        top: 16px;
+        left: 16px
+    }
+} 

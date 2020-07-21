@@ -1,0 +1,26 @@
+.video__container {
+    max-width: 1184px;
+    width: calc(100% - 96px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .video__container {
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .video__container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .video__container {
+        width: calc(100% - 32px);
+    }
+}

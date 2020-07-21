@@ -1,0 +1,36 @@
+.lead__image {
+    width: 100%;
+    object-fit: fill;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        height: 554px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .lead__image {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__image {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .lead__image {
+        margin-bottom: 4px;
+        height: 211px;
+    }
+}

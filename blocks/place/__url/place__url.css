@@ -1,0 +1,22 @@
+.place__url {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.67;
+    text-decoration-line: none;
+    border-bottom: 1px solid currentColor;
+    color: inherit;
+    margin: 0;
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+.place__url:hover {
+    opacity: 0.3;
+}
+
+@media screen and (max-width: 768px) {
+    .place__url {
+        font-size: 1.125em;
+    }
+}
