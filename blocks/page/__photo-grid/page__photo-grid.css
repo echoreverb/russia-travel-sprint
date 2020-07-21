@@ -1,0 +1,10 @@
+.page__photo-grid {
+    width: fit-content;
+    margin: 0 auto 105px;
+}
+
+@media screen and (max-width: 375px) {
+    .page__photo-grid {
+        margin-bottom: 70px;
+    }
+}

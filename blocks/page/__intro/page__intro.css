@@ -1,0 +1,10 @@
+.page__intro {
+    width: fit-content;
+    margin: 0 auto 100px;
+}
+
+@media screen and (max-width: 767px) {
+    .page__intro{
+        margin-bottom: 70px;
+    }
+}
